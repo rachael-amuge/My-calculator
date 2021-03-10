@@ -1,6 +1,6 @@
 *,*::before,*::after{
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: poppins,sans-serif;
     font-weight: normal;
 }
 
@@ -27,7 +27,7 @@ body{
 }
 
 .calculator-grid > button:hover{
-    background-color: white;
+    background-color: palevioletred;
 }
 
 .span-two{
@@ -39,5 +39,8 @@ body{
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
-
+    flex-direction: column;
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
 }
