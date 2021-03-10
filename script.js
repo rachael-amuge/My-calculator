@@ -5,6 +5,9 @@ class calculator {
     }
     
     clear(){
+        this.previousOperand = ''
+        this.currentOperand = ''
+        this.operation = 'undefined'
 
     }
 
@@ -25,15 +28,10 @@ class calculator {
     }
 
     updateDisplay(){
+        this.previousOperand 
 
     }
 }
-
-
-
-
-
-
 
 const numberButtons = document.querySelectorAll('[data-number]')
 const operationButtons = document.querySelectorAll('[data-operation]')
