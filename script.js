@@ -12,7 +12,7 @@ class calculator {
     }
 
     appendNumber(number){
-
+        this.currentOperand = this.currentOperand
     }
 
     delete(){
